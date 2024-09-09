@@ -1,70 +1,64 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bubble Game 🎯
 
-## Available Scripts
+Bubble Game is a fun and interactive game built using **React** and **CSS**, where the player clicks on randomly generated bubbles within a set time limit to score points. The goal is to hit the target number and maximize your score before the timer runs out.
 
-In the project directory, you can run:
+![image](https://github.com/user-attachments/assets/ca12483a-25d1-4a1f-ae6b-6f5632bf7c29)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Interactive Gameplay**: Click on bubbles displaying random numbers. Each correct hit increases your score, while a wrong hit decreases it.
+- **Dynamic Bubbles**: The bubbles regenerate after each hit, providing fresh targets to keep the game exciting.
+- **Timer Countdown**: A 60-second countdown timer challenges players to score as many points as possible before the time runs out.
+- **Score Tracking**: Real-time score tracking based on correct and incorrect clicks.
+- **Game Control**: Start, pause, and resume the game at any time during play.
+- **Game Over Screen**: A final screen displays the player's score once the timer reaches zero.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Play
 
-### `npm test`
+1. Click on the "Start Game" button to begin.
+2. A target number will be displayed in the **Hit** box.
+3. Click the bubbles that match the target number to score points:
+   - **Correct Hit**: +10 points.
+   - **Wrong Hit**: -10 points.
+4. The game ends when the timer reaches zero, and your final score will be displayed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **React**: For building the dynamic user interface and managing game state.
+- **CSS**: Used for styling the bubbles and layout.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    git clone https://github.com/skp3214/bubble-game.git
+    ```
 
-### `npm run eject`
+2. Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    cd bubble-game
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    npm install
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Run the app:
 
-## Learn More
+    ```bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The game will be available at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Future Enhancements
 
-### Code Splitting
+- Add difficulty levels (easy, medium, hard) with varying timers and scoring systems.
+- Add sound effects for hits and misses.
+- Mobile responsiveness for better gameplay on smaller screens.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
